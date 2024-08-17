@@ -1,0 +1,127 @@
+#DetailsDiv{
+    width: 50%;
+    background-color: aliceblue;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border-radius: 0 10px 10px 0;
+}
+#PriceDiv{
+    width: 100%;
+    display: flex;
+  column-gap: 28px;
+  align-items: center;
+}
+#Header{
+    margin: 0;
+    font-size: 40px;
+    line-height: 50px;
+}
+#Description{
+    margin: 0;
+}
+#CartBtn{
+    height: 55px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7px;
+}
+#PriceLabel{
+    font-size: 30px;
+    font-weight: 900;
+    color: hsl(158, 36%, 37%)
+}
+#DiscountPrice{
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+}
+#Tittle{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%) ;
+}
+
+
+
+
+
+
+
+
+/* #DetailsDiv {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#Header {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#Description {
+    font-size: 14px;
+}
+
+#PriceDiv {
+    column-gap: 15px;
+}
+
+#CartBtn {
+    height: 45px;
+    font-size: 14px;
+}
+
+#PriceLabel {
+    font-size: 24px;
+}
+
+#DiscountPrice {
+    font-size: 10px;
+}
+
+#Tittle {
+    font-size: 18px;
+} */
+
+@media (max-width: 768px) {
+    #DetailsDiv {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #Header {
+        font-size: 24px;
+    }
+
+    #Description {
+        font-size: 12px;
+    }
+
+    #CartBtn {
+        height: 40px;
+        font-size: 12px;
+    }
+
+    #PriceLabel {
+        font-size: 20px;
+    }
+
+    #DiscountPrice {
+        font-size: 8px;
+    }
+
+    #Tittle {
+        font-size: 16px;
+    }
+}

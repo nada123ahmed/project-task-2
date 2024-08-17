@@ -1,0 +1,35 @@
+#ImageDiv{
+    width: 50%;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 0;
+}
+#MyImg{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+    
+}
+/* #ImageDiv {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#MyImg {
+    height: auto;
+    width: 100%;
+} */
+
+@media (max-width: 768px) {
+    #ImageDiv {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #MyImg {
+        width: 100%;
+        height: auto;
+    }
+}
